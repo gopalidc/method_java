@@ -1,0 +1,21 @@
+public class Practice{
+    int sum(int a, int b){
+        System.out.print("Hi I am method 1 ..");
+        return a+b;
+    }
+    double sum(double a, double b, double c){
+        System.out.print("Hi I am method 2 .. ");
+        return a+b+c;
+    }
+    double sum(double a, double b, double c){
+        System.out.print("Hi I am method 3 .. ");
+        return a+b+c;
+    }
+    public static void main(String[] args){
+        Practice obj = new Practice();
+        System.out.println("calling method 1 :" + obj.sum(2,3));
+        System.out.println("calling method 2 :" + obj.sum(2.2,3.6,7.6));
+        System.out.println("calling method 3 :" + obj.sum(2.5,3.4,9.6));
+
+    }
+}
