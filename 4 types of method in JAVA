@@ -1,0 +1,24 @@
+public class Practice{
+    
+void myMethod1(){
+System.out.println("non return type method");
+}
+void myMethod2(int paisa){
+System.out.println("non return type with parameter");
+}
+int myMethod3(){
+System.out.println("retun type withod parameter");
+return 10;
+}
+int myMethod4(int paisa){
+System.out.println("return type with parameter");
+return 10;
+}
+public static void main(String[] args){
+    Practice obj = new Practice();
+    obj.myMethod1();
+    obj.myMethod2(10);
+    obj.myMethod3();
+    obj.myMethod4(40);
+}
+}
